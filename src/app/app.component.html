@@ -1,0 +1,11 @@
+<h1 style="text-align:center;">Leaflet Map</h1>
+
+<div fxFlex="1 1 auto">
+  <div leaflet class="map-box" #leafletMmap [attr.id]="'leaflet-map'" [leafletOptions]="mapOptions"
+    (leafletMapReady)="onMapReady($event)">
+  </div>
+  <!-- <div>
+    <mat-checkbox class="example-margin">Gates</mat-checkbox>
+    <mat-checkbox class="example-margin">Shops</mat-checkbox>
+  </div> -->
+</div>
